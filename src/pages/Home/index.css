@@ -1,0 +1,8 @@
+.homeContainer {
+  padding: 32px;
+  width: 100%;
+}
+
+.homeContainer h1 {
+  font-size: 36px;
+}

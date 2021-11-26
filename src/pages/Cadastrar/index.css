@@ -1,0 +1,59 @@
+.cadastrarContainer {
+  width: calc(100% - 1rem);
+  height: 100%;
+  padding: 2rem;
+}
+
+#content textarea {
+  font-weight: bold;
+  min-height: 50px;
+}
+
+#content label {
+  font-weight: bold;
+}
+
+#content .text {
+  padding: 0.5rem;
+  border-bottom: 1px solid #1a8180;
+  outline: none;
+  background: transparent;
+  margin: 2rem 0 2rem 0;
+  font-size: 1rem;
+}
+
+#content .radioButton {
+  margin: 2rem;
+}
+
+#content .sendButton {
+  padding: 1rem;
+  background-color: #1a8180;
+  color: white;
+  width: 100%;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: 0.1s ease;
+}
+
+#content .cancelarButton {
+  padding: 1rem;
+  background-color: rgb(197, 55, 55);
+  color: white;
+  width: 100%;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: 0.1s ease;
+  margin-bottom: 1rem;
+}
+
+#content .sendButton:hover {
+  filter: brightness(0.85);
+}
+
+#content {
+  border-radius: 2rem;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+}

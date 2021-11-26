@@ -1,0 +1,38 @@
+.flashcardContainer {
+  background: rgba(0, 0, 0, 0.2);
+  width: 30%;
+  height: 15rem;
+  border-radius: 16px;
+  padding: 24px;
+  position: relative;
+}
+
+.flashcardContainer p {
+  margin: 1.5rem 0 1.5rem 0;
+}
+
+.flashcardContainer bold {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  opacity: 0.65;
+}
+
+.buttons {
+  display: flex;
+  gap: 1.5rem;
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+}
+
+.buttons button {
+  padding: 1rem;
+  background: transparent;
+  cursor: pointer;
+  transition: 100ms ease;
+}
+
+.buttons button:hover {
+  color: rgba(0, 0, 0, 0.5);
+}
